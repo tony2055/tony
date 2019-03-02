@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MenuPrincipal</string>
+    <string name="label_play">Jogar</string>
+    <string name="label_sair">Sair</string>
+</resources>

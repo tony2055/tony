@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@drawable/background_menu"
+    tools:context=".MenuActivity">
+
+    <include layout="@layout/header"/>
+    <include layout="@layout/footer"/>
+
+    <RelativeLayout
+
+        android:layout_below="@+id/header"
+        android:layout_above="@+id/footer"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            style="@style/meu_botao"
+            android:id="@+id/btPlay"
+            android:text="@string/label_play" />
+
+        <Button
+
+            style="@style/meu_botao"
+            android:layout_below="@+id/btPlay"
+            android:id="@+id/btSair"
+            android:text="@string/label_sair" />
+    </RelativeLayout>
+
+
+
+
+</RelativeLayout>

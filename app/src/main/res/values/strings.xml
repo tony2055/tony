@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MenuPrincipal</string>
+    <string name="label_play">Play</string>
+    <string name="label_sair">Sair</string>
+</resources>
